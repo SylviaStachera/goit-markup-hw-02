@@ -158,3 +158,16 @@ body {
 	color: var(--main-white);
 	cursor: pointer;
 }
+
+.main-desription-portfolio {
+	font-weight: bold;
+	line-height: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+}
+.second-description-portfolio {
+	line-height: 16px;
+	line-height: 30px;
+	letter-spacing: 0.03em;
+	color: var(--main-grey);
+}
