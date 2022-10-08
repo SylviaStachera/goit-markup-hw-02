@@ -10,11 +10,25 @@
 	font-family: 'Roboto', sans-serif;
 	color: var(--main-black);
 }
+/* style header  */
 
-.style-h1 {
-	text-transform: uppercase;
+.header-nav {
+	background-color: var(--main-white);
 }
 
+.header-title {
+	background-color: rgba(47, 48, 58, 1);
+}
+.style-h1 {
+	text-transform: uppercase;
+	color: var(--main-white);
+}
+.btn-style {
+	width: 200px;
+	height: 50px;
+	background-color: var(--active-color);
+	color: var(--main-white);
+}
 .no-underline {
 	text-decoration: none;
 }
@@ -48,6 +62,11 @@
 
 /* style main */
 
+.section-one-two{
+   	background-color: var(--main-white);
+} 
+
+
 .section-one-h2 {
 	font-weight: bold;
 	font-size: 14px;
@@ -69,6 +88,14 @@
 	line-height: 42px;
 	text-align: center;
 	letter-spacing: 0.03em;
+}
+
+.section-three {
+	background-color: rgba(245, 244, 250, 1);
+}
+
+.section-three-figure{
+    background-color: var(--main-white);
 }
 
 .team-name {
