@@ -9,8 +9,12 @@
 	font-family: 'Roboto', sans-serif;
 	color: var(--main-text-color);
 }
-a {
+.no-underline {
 	text-decoration: none;
+}
+
+.no-dots {
+	list-style: none;
 }
 
 .logo {
@@ -30,14 +34,25 @@ a {
 	letter-spacing: 0.02em;
 	line-height: 16px;
 }
-.nav-style ul {
-	list-style: none;
-}
-.nav-style ~ ul {
-	list-style: none;
-}
 
 .active-color:hover:focus {
 	color: var(--active-color);
 	cursor: pointer;
+}
+
+/* style main */
+
+.assets-h2 {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+
+.assets-p {
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.03em;
+	color: rgba(117, 117, 117, 1);
 }
