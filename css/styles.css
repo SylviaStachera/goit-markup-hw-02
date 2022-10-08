@@ -57,13 +57,13 @@ body {
 	font-size: 14px;
 	font-weight: 500;
 	letter-spacing: 0.02em;
-	line-height: 16px;
+	line-height: 1.1428;
 }
 
 .header-mail-tel {
 	color: var(--main-grey);
 	font-size: 14px;
-	line-height: 24px;
+	line-height: 1.7143;
 	letter-spacing: 0.03em;
 }
 
@@ -81,14 +81,14 @@ body {
 .section-one-h2 {
 	font-weight: bold;
 	font-size: 14px;
-	line-height: 16px;
+	line-height: 1.1428;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 }
 
 .section-one-p {
 	font-size: 14px;
-	line-height: 24px;
+	line-height: 1.7143;
 	letter-spacing: 0.03em;
 	color: rgba(117, 117, 117, 1);
 }
@@ -96,7 +96,7 @@ body {
 .section-two-three-h2 {
 	font-weight: bold;
 	font-size: 36px;
-	line-height: 42px;
+	line-height: 1.1667;
 	text-align: center;
 	letter-spacing: 0.03em;
 }
@@ -111,12 +111,14 @@ body {
 
 .main-desription {
 	font-weight: 500;
-	line-height: 19px;
+	font-size: 16px;
+	line-height: 1.1875;
 	text-align: center;
 	letter-spacing: 0.03em;
 }
 .second-description {
-	line-height: 19px;
+	font-size: 16px;
+	line-height: 1.1875;
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: var(--main-grey);
@@ -130,7 +132,7 @@ body {
 .footer-address {
 	color: var(--main-white);
 	font-size: 14px;
-	line-height: 24px;
+	line-height: 1.7143;
 	font-style: normal;
 	letter-spacing: 0.03em;
 }
@@ -138,7 +140,7 @@ body {
 .footer-mail-tel {
 	color: rgba(255, 255, 255, 0.6);
 	font-size: 14px;
-	line-height: 24px;
+	line-height: 1.7143;
 	letter-spacing: 0.03em;
 }
 
@@ -148,7 +150,7 @@ body {
 	background-color: var(--darker-white);
 	font-weight: 500;
 	font-size: 16px;
-	line-height: 26px;
+	line-height: 1.625;
 	text-align: center;
 	letter-spacing: 0.03em;
 }
@@ -167,7 +169,7 @@ body {
 }
 .second-description-portfolio {
 	line-height: 16px;
-	line-height: 30px;
+	line-height: 1.875;
 	letter-spacing: 0.03em;
 	color: var(--main-grey);
 }
