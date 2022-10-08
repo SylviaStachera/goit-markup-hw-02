@@ -156,6 +156,6 @@
 
 .btn-portfolio:hover {
 	background-color: var(--active-color);
+	color: var(--main-white);
 	cursor: pointer;
-	text-decoration: underline;
 }
