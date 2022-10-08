@@ -57,10 +57,23 @@
 	color: rgba(117, 117, 117, 1);
 }
 
-.section-two-h2 {
+.section-two-three-h2 {
 	font-weight: bold;
 	font-size: 36px;
 	line-height: 42px;
 	text-align: center;
 	letter-spacing: 0.03em;
+}
+
+.team-name {
+	font-weight: 500;
+	line-height: 19px;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+.team-describe {
+	line-height: 19px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: rgba(117, 117, 117, 1);
 }
