@@ -2,6 +2,7 @@
 	--main-black: rgba(33, 33, 33, 1);
 	--active-color: rgba(33, 150, 243, 1);
 	--main-white: rgba(255, 255, 255, 1);
+	--main-grey: rgba(245, 244, 250, 1);
 }
 
 * {
@@ -28,6 +29,13 @@
 	height: 50px;
 	background-color: var(--active-color);
 	color: var(--main-white);
+}
+
+.btn-style:hover {
+	cursor: pointer;
+}
+ {
+	cursor: pointer;
 }
 .no-underline {
 	text-decoration: none;
@@ -97,20 +105,20 @@
 }
 
 .section-three {
-	background-color: rgba(245, 244, 250, 1);
+	background-color: var(--main-grey);
 }
 
-.section-three-figure {
+.section-figure {
 	background-color: var(--main-white);
 }
 
-.team-name {
+.main-desription {
 	font-weight: 500;
 	line-height: 19px;
 	text-align: center;
 	letter-spacing: 0.03em;
 }
-.team-describe {
+.second-description {
 	line-height: 19px;
 	text-align: center;
 	letter-spacing: 0.03em;
@@ -135,4 +143,21 @@
 	font-size: 14px;
 	line-height: 24px;
 	letter-spacing: 0.03em;
+}
+
+/* portfolio */
+
+.btn-portfolio {
+	background-color: var(--main-grey);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+.btn-portfolio:hover {
+	background-color: var(--active-color);
+	cursor: pointer;
+	text-decoration: underline;
 }
