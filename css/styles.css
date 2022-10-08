@@ -2,10 +2,11 @@
 	--main-black: rgba(33, 33, 33, 1);
 	--active-color: rgba(33, 150, 243, 1);
 	--main-white: rgba(255, 255, 255, 1);
-	--main-grey: rgba(245, 244, 250, 1);
+	--main-grey: rgba(117, 117, 117, 1);
+	--darker-white: rgba(245, 244, 250, 1);
 }
 
-* {
+body {
 	font-family: 'Roboto', sans-serif;
 	color: var(--main-black);
 }
@@ -60,7 +61,7 @@
 }
 
 .header-mail-tel {
-	color: rgba(117, 117, 117, 1);
+	color: var(--main-grey);
 	font-size: 14px;
 	line-height: 24px;
 	letter-spacing: 0.03em;
@@ -101,7 +102,7 @@
 }
 
 .section-three {
-	background-color: var(--main-grey);
+	background-color: var(--darker-white);
 }
 
 .section-figure {
@@ -118,7 +119,7 @@
 	line-height: 19px;
 	text-align: center;
 	letter-spacing: 0.03em;
-	color: rgba(117, 117, 117, 1);
+	color: var(--main-grey);
 }
 
 /* style footer */
@@ -144,7 +145,7 @@
 /* portfolio */
 
 .btn-portfolio {
-	background-color: var(--main-grey);
+	background-color: var(--darker-white);
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 26px;
@@ -152,7 +153,7 @@
 	letter-spacing: 0.03em;
 }
 
-.btn-portfolio:hover {
+.btn-portfolio:hover:focus {
 	background-color: var(--active-color);
 	color: var(--main-white);
 	cursor: pointer;
