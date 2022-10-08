@@ -55,6 +55,13 @@
 	line-height: 16px;
 }
 
+.header-mail-tel {
+	color: rgba(117, 117, 117, 1);
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.03em;
+}
+
 .active-color:hover:focus {
 	color: var(--active-color);
 	cursor: pointer;
@@ -62,10 +69,9 @@
 
 /* style main */
 
-.section-one-two{
-   	background-color: var(--main-white);
-} 
-
+.section-one-two {
+	background-color: var(--main-white);
+}
 
 .section-one-h2 {
 	font-weight: bold;
@@ -94,8 +100,8 @@
 	background-color: rgba(245, 244, 250, 1);
 }
 
-.section-three-figure{
-    background-color: var(--main-white);
+.section-three-figure {
+	background-color: var(--main-white);
 }
 
 .team-name {
@@ -124,7 +130,7 @@
 	letter-spacing: 0.03em;
 }
 
-.footer-a {
+.footer-mail-tel {
 	color: rgba(255, 255, 255, 0.6);
 	font-size: 14px;
 	line-height: 24px;
