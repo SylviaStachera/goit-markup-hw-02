@@ -32,9 +32,6 @@ body {
 .btn-style:hover {
 	cursor: pointer;
 }
-.btn-style:active {
-	cursor: pointer;
-}
 
 .header-nav {
 	background-color: var(--main-white);
