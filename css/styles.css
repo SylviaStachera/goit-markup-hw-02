@@ -29,7 +29,10 @@ body {
 	color: var(--main-white);
 }
 
-.btn-style:hover:active {
+.btn-style:hover {
+	cursor: pointer;
+}
+.btn-style:active {
 	cursor: pointer;
 }
 
