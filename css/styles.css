@@ -12,14 +12,10 @@ body {
 }
 /* style header  */
 
-.header-nav {
-	background-color: var(--main-white);
-}
-
 .header-title {
 	background-color: rgba(47, 48, 58, 1);
 }
-.style-h1 {
+.style-title {
 	font-size: 44px;
 	text-transform: uppercase;
 	color: var(--main-white);
@@ -35,6 +31,10 @@ body {
 
 .btn-style:hover:active {
 	cursor: pointer;
+}
+
+.header-nav {
+	background-color: var(--main-white);
 }
 
 .no-underline {
@@ -90,11 +90,11 @@ body {
 
 /* style main */
 
-.section-one-two {
+.section-light {
 	background-color: var(--main-white);
 }
 
-.section-one-h2 {
+.header-second {
 	font-weight: bold;
 	font-size: 14px;
 	line-height: 1.1428;
@@ -102,14 +102,14 @@ body {
 	text-transform: uppercase;
 }
 
-.section-one-p {
+.section-p {
 	font-size: 14px;
 	line-height: 1.7143;
 	letter-spacing: 0.03em;
 	color: rgba(117, 117, 117, 1);
 }
 
-.section-two-three-h2 {
+.header-second-big {
 	font-weight: bold;
 	font-size: 36px;
 	line-height: 1.1667;
@@ -117,7 +117,7 @@ body {
 	letter-spacing: 0.03em;
 }
 
-.section-three {
+.section-dark {
 	background-color: var(--darker-white);
 }
 
