@@ -68,6 +68,10 @@ body {
 	line-height: 1.1428;
 }
 
+.nav-color{
+	color: var(--main-black);
+}
+
 .header-mail-tel {
 	color: var(--main-grey);
 	font-size: 14px;
