@@ -20,6 +20,7 @@ body {
 	background-color: rgba(47, 48, 58, 1);
 }
 .style-h1 {
+	font-size: 44px;
 	text-transform: uppercase;
 	color: var(--main-white);
 }
