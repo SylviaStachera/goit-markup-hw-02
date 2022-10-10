@@ -24,6 +24,8 @@ body {
 	color: var(--main-white);
 }
 .btn-style {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
 	width: 200px;
 	height: 50px;
 	background-color: var(--active-color);
@@ -152,6 +154,7 @@ body {
 /* portfolio */
 
 .btn-portfolio {
+	font-family: 'Roboto', sans-serif;
 	background-color: var(--darker-white);
 	font-weight: 500;
 	font-size: 16px;
