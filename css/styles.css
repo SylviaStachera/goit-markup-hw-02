@@ -109,7 +109,7 @@ body {
 	background-color: var(--main-white);
 }
 
-.main-desription {
+.main-description {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.1875;
@@ -161,7 +161,8 @@ body {
 	cursor: pointer;
 }
 
-.main-desription-portfolio {
+.main-description-portfolio {
+	font-size: 18px;
 	font-weight: bold;
 	line-height: 18px;
 	line-height: 2;
