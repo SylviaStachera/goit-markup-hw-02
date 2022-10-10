@@ -33,7 +33,7 @@ body {
 	color: var(--main-white);
 }
 
-.btn-style:hover {
+.btn-style:hover:active {
 	cursor: pointer;
 }
 
@@ -68,7 +68,7 @@ body {
 	line-height: 1.1428;
 }
 
-.nav-color{
+.nav-color {
 	color: var(--main-black);
 }
 
@@ -79,7 +79,11 @@ body {
 	letter-spacing: 0.03em;
 }
 
-.active-color:hover:focus {
+.active-color:hover {
+	color: var(--active-color);
+	cursor: pointer;
+}
+.active-color:active {
 	color: var(--active-color);
 	cursor: pointer;
 }
@@ -168,7 +172,12 @@ body {
 	letter-spacing: 0.03em;
 }
 
-.btn-portfolio:hover:focus {
+.btn-portfolio:hover {
+	background-color: var(--active-color);
+	color: var(--main-white);
+	cursor: pointer;
+}
+.btn-portfolio:active {
 	background-color: var(--active-color);
 	color: var(--main-white);
 	cursor: pointer;
